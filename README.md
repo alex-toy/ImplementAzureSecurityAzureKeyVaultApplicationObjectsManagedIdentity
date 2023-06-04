@@ -114,3 +114,10 @@ Azure.Security.KeyVault.Keys.Cryptography
 <img src="/pictures/apvsrbac3.png" title="key vault"  width="900">
 
 - now the user should have the ability to list the secret
+
+### Managed Identities
+
+
+
+
+https://github.com/cloudxeus/Azure-Dev/tree/main/AZ-204%20-%20Implement%20Azure%20security%20-%20Key%20Vault%2C%20Managed%20Identity/4.%20Case%20-%20Managed%20Identities%20-%20Without%20use/AzureStorageBlob
