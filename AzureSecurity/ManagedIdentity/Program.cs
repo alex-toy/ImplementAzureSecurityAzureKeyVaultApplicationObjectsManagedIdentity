@@ -7,15 +7,15 @@ namespace ManagedIdentity
     internal class Program
     {
 
-        private static string tenantid = "5f5f1c90-abac-4ebe-88d7-0f3d121f967e";
-        private static string clientid = "d8cf0b94-2d37-4902-8c79-60d426566d8e";
-        private static string clientsecret = "bZ-u6__-aAr~2gz.4jasbs9v2a0ahv5PSo";
+        private static string tenantid = "5b38c313-3bf3-4f5b-90e6-8e32480e8986";
+        private static string clientid = "759a3471-50e9-491d-be15-e752e437fb0f";
+        private static string clientsecret = "7_18Q~AiYzKgVUqH4peoaiS.U6E~PNpOot1VSb8G";
 
-        private static string keyvault_url = "https://acckeyvaultname.vault.azure.net/";
+        private static string keyvault_url = "https://alexeikv.vault.azure.net/";
         private static string secret_name = "dbpassword";
+
         static void Main(string[] args)
         {
-
             ClientSecretCredential _client_secret = new ClientSecretCredential(tenantid, clientid, clientsecret);
 
             SecretClient _secret_client = new SecretClient(new Uri(keyvault_url), _client_secret);
@@ -25,7 +25,6 @@ namespace ManagedIdentity
             Console.WriteLine($"The value of the secret is {secret.Value.Value}");
 
             Console.ReadKey();
-
         }
     }
 }

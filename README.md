@@ -66,14 +66,39 @@ Azure.Storage.Blobs
 ### Create a Key Vault
 
 - create a *Key Vault* resource
-<img src="/pictures/key_vault.png" title="key vault"  width="500">
+<img src="/pictures/key_vault.png" title="key vault"  width="900">
 
 ### Azure Key Vault - Secrets - Application object
 
-- create a *Key Vault* resource
+- create a *Key Vault* secret
 <img src="/pictures/key_vault2.png" title="key vault"  width="500">
 
 - create an access policy
 <img src="/pictures/key_vault3.png" title="key vault"  width="500">
+<img src="/pictures/key_vault4.png" title="key vault"  width="500">
+<img src="/pictures/key_vault5.png" title="key vault"  width="500">
 
-- grab the key vault uri
+- run the app. You should get the secret
+<img src="/pictures/key_vault6.png" title="key vault"  width="500">
+
+### Azure Key Vault - Secrets - Encryption keys
+
+- install packages
+```
+Azure.Identity
+Azure.Security.KeyVault.Keys
+Azure.Security.KeyVault.Keys.Cryptography
+```
+
+- generate a key
+<img src="/pictures/encryption.png" title="key vault"  width="500">
+<img src="/pictures/encryption2.png" title="key vault"  width="900">
+
+- add an access policy for the app
+<img src="/pictures/encryption3.png" title="key vault"  width="500">
+<img src="/pictures/encryption4.png" title="key vault"  width="500">
+<img src="/pictures/encryption5.png" title="key vault"  width="900">
+
+- run the app
+<img src="/pictures/encryption6.png" title="key vault"  width="900">
+
