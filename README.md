@@ -71,12 +71,12 @@ Azure.Storage.Blobs
 ### Azure Key Vault - Secrets - Application object
 
 - create a *Key Vault* secret
-<img src="/pictures/key_vault2.png" title="key vault"  width="500">
+<img src="/pictures/key_vault2.png" title="key vault"  width="900">
 
 - create an access policy
 <img src="/pictures/key_vault3.png" title="key vault"  width="500">
 <img src="/pictures/key_vault4.png" title="key vault"  width="500">
-<img src="/pictures/key_vault5.png" title="key vault"  width="500">
+<img src="/pictures/key_vault5.png" title="key vault"  width="900">
 
 - run the app. You should get the secret
 <img src="/pictures/key_vault6.png" title="key vault"  width="500">
@@ -101,4 +101,6 @@ Azure.Security.KeyVault.Keys.Cryptography
 
 - run the app
 <img src="/pictures/encryption6.png" title="key vault"  width="900">
+
+### Azure Key Vault - Access Policies vs RBAC
 
