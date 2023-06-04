@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobApp", "BlobApp\BlobApp.csproj", "{D10862DB-532A-44CD-B6D4-D88B606AB844}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedIdentity", "ManagedIdentity\ManagedIdentity.csproj", "{0B6701BB-087D-456C-8CE9-6AA4D8B92C7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D10862DB-532A-44CD-B6D4-D88B606AB844}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D10862DB-532A-44CD-B6D4-D88B606AB844}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D10862DB-532A-44CD-B6D4-D88B606AB844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6701BB-087D-456C-8CE9-6AA4D8B92C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6701BB-087D-456C-8CE9-6AA4D8B92C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6701BB-087D-456C-8CE9-6AA4D8B92C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6701BB-087D-456C-8CE9-6AA4D8B92C7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

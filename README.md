@@ -59,3 +59,21 @@ Azure.Storage.Blobs
 
 - in the section *Certificates & secrets*, create a new secret. Grab that secret and use it for the application.
 <img src="/pictures/app_object5.png" title="application object"  width="900">
+
+
+## Azure Key Vault
+
+### Create a Key Vault
+
+- create a *Key Vault* resource
+<img src="/pictures/key_vault.png" title="key vault"  width="500">
+
+### Azure Key Vault - Secrets - Application object
+
+- create a *Key Vault* resource
+<img src="/pictures/key_vault2.png" title="key vault"  width="500">
+
+- create an access policy
+<img src="/pictures/key_vault3.png" title="key vault"  width="500">
+
+- grab the key vault uri
