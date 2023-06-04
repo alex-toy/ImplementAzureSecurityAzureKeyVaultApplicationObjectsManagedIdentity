@@ -104,3 +104,13 @@ Azure.Security.KeyVault.Keys.Cryptography
 
 ### Azure Key Vault - Access Policies vs RBAC
 
+- add a reader role to a user
+<img src="/pictures/apvsrbac.png" title="key vault"  width="900">
+
+- now the user should be able to access *Key Vault*
+
+- create an access policy
+<img src="/pictures/apvsrbac2.png" title="key vault"  width="900">
+<img src="/pictures/apvsrbac3.png" title="key vault"  width="900">
+
+- now the user should have the ability to list the secret
