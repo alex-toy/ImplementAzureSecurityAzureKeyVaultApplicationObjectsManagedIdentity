@@ -150,6 +150,16 @@ Azure.Security.KeyVault.Keys.Cryptography
 - in the azure portal, grab the url of the blob and paste it
 <img src="/pictures/with.png" title="url of blob"  width="900">
 
+- build the solution
+
+- **in the VM** : reach the file containing the Azure Blob Storage console app
+<img src="/pictures/with2.png" title="managed identities with use"  width="900">
+
+- **in the VM** : inside the *bin* folder, copy the entire *debug* folder, and paste it in the D drive (temporary storage)
+<img src="/pictures/with3.png" title="paste the debug folder"  width="900">
+
+- in the VM add a *Managed Identity* : turn on **System Assigned Identity**
+<img src="/pictures/with4.png" title="system assigned identity"  width="900">
 
 
 
