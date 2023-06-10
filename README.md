@@ -115,7 +115,18 @@ Azure.Security.KeyVault.Keys.Cryptography
 
 - now the user should have the ability to list the secret
 
-### Managed Identities
+### Managed Identities - without use
+
+- create console app for blob storage, and build it
+
+- create a **Windows 2019 server** VM
+
+- download the .rdp file of the machine
+
+- right-clic and edit the .rdp file and select *local resources*, then map the local C drive. Finally, connect to the VM
+<img src="/pictures/without.png" title="managed identities without use"  width="300">
+<img src="/pictures/without2.png" title="managed identities without use"  width="300">
+
 
 
 
