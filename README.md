@@ -190,4 +190,25 @@ In the case, we haven't embedded any sort of access keys. Everything is working 
 <img src="/pictures/kv4.png" title="key vault"  width="900">
 
 
+## Access Token
 
+### Getting Access Token
+
+- create *AccessToken* app and build it
+
+- **in the VM**, open a command prompt and run the app
+<img src="/pictures/access_token.png" title="access token"  width="900">
+
+### Getting Access Token from powershell
+
+- in the azure portal, add role assignments for the VM
+<img src="/pictures/powershell.png" title="access token from powershell"  width="900">
+
+- in the azure portal, add role assignments for the VM at the resource group level
+<img src="/pictures/powershell2.png" title="access token from powershell"  width="900">
+
+- in the azure portal, in the Properties section of the Vm, grab the resource id and use it for the commands
+<img src="/pictures/powershell3.png" title="access token from powershell"  width="900">
+
+- **in the VM**, open a powershell command prompt and run the commands in *command.ps1*
+<img src="/pictures/powershell4.png" title="access token from powershell"  width="900">
