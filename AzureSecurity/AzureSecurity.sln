@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedIdentityWithoutUse",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedIdentityWithUse", "ManagedIdentityWithUse\ManagedIdentityWithUse.csproj", "{A43000D3-9555-4E92-9B92-8DCD4C69F240}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyVaultSecret", "KeyVaultSecret\KeyVaultSecret.csproj", "{94183221-EBEF-4A48-81B7-8419E267EA6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A43000D3-9555-4E92-9B92-8DCD4C69F240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43000D3-9555-4E92-9B92-8DCD4C69F240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43000D3-9555-4E92-9B92-8DCD4C69F240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94183221-EBEF-4A48-81B7-8419E267EA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94183221-EBEF-4A48-81B7-8419E267EA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94183221-EBEF-4A48-81B7-8419E267EA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94183221-EBEF-4A48-81B7-8419E267EA6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

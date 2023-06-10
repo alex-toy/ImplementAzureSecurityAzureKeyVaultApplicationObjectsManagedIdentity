@@ -161,8 +161,33 @@ Azure.Security.KeyVault.Keys.Cryptography
 - in the VM add a *Managed Identity* : turn on **System Assigned Identity**
 <img src="/pictures/with4.png" title="system assigned identity"  width="900">
 
+- in the storage account, add role assignements for the VM
+<img src="/pictures/with5.png" title="reader roles for demovm"  width="900">
+
+- **in the VM**, run the app. 
+<img src="/pictures/with6.png" title="reader roles for demovm"  width="900">
+
+In the case, we haven't embedded any sort of access keys. Everything is working on the basis of the **Managed Identity**.
+
+### Azure Key Vault - Secrets - Managed Identities 
+
+- create console app *KeyVaultSecret*
+
+- create a key vault and grab the url to use in the app
+<img src="/pictures/kv.png" title="key vault"  width="900">
+
+- in **Azure Key Vault**, create a secret name *dbpassword*
+<img src="/pictures/kv2.png" title="key vault"  width="900">
+
+- build the solution
+
+- make sure the VM has the system assigned identity enabled
+
+- in **Azure Key Vault**, create an *access policy* for the VM
+<img src="/pictures/kv3.png" title="key vault"  width="900">
+
+- **in the VM**, run the app. 
+<img src="/pictures/kv4.png" title="key vault"  width="900">
 
 
 
-
-https://github.com/cloudxeus/Azure-Dev/tree/main/AZ-204%20-%20Implement%20Azure%20security%20-%20Key%20Vault%2C%20Managed%20Identity/4.%20Case%20-%20Managed%20Identities%20-%20Without%20use/AzureStorageBlob
