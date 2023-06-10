@@ -127,6 +127,23 @@ Azure.Security.KeyVault.Keys.Cryptography
 <img src="/pictures/without.png" title="managed identities without use"  width="300">
 <img src="/pictures/without2.png" title="managed identities without use"  width="300">
 
+- **in the VM**, you should see the mapping with your local C drive
+<img src="/pictures/without3.png" title="managed identities without use"  width="900">
+
+- **in the VM** : you should then be able to reach the file containing the Azure Blob Storage console app
+<img src="/pictures/without4.png" title="managed identities without use"  width="900">
+
+- **in the VM** : inside the *bin* folder, copy the entire *debug* folder, and paste it in the D drive (temporary storage)
+
+- **in the VM** : inside the C drive, create a *tmp* folder
+
+- **in the VM** : install the dotnet sdk
+<img src="/pictures/without5.png" title="turn off the security configuration"  width="900">
+<img src="/pictures/without6.png" title="choose .NET Core 3.1 Desktop Runtime"  width="900">
+
+- **in the VM** : reach the *ManagedIdentityWithoutUse* executable and execute it. The *sample.txt* file should appear in the download folder
+
+
 
 
 
