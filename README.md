@@ -143,6 +143,13 @@ Azure.Security.KeyVault.Keys.Cryptography
 
 - **in the VM** : reach the *ManagedIdentityWithoutUse* executable and execute it. The *sample.txt* file should appear in the download folder
 
+### Managed Identities - with use
+
+- create console app for blob storage
+
+- in the azure portal, grab the url of the blob and paste it
+<img src="/pictures/with.png" title="url of blob"  width="900">
+
 
 
 
