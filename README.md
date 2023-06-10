@@ -212,3 +212,20 @@ In the case, we haven't embedded any sort of access keys. Everything is working 
 
 - **in the VM**, open a powershell command prompt and run the commands in *command.ps1*
 <img src="/pictures/powershell4.png" title="access token from powershell"  width="900">
+
+
+## Disk Encryption
+
+### Disk Server Encryption
+
+- attach a new disk to the VM
+<img src="/pictures/disk.png" title="disk server encryption"  width="900">
+
+- in **Azure Key Vault**, create a new key
+<img src="/pictures/disk2.png" title="disk server encryption"  width="900">
+
+- in the azure portal, create a **Disk Encryption Set**
+<img src="/pictures/disk3.png" title="disk server encryption"  width="500">
+
+- clic on the error message and check that permissions have been granted to the encryption set
+<img src="/pictures/disk4.png" title="disk server encryption"  width="500">
